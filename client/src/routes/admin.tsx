@@ -83,9 +83,10 @@ function NavTab({
     <Link
       to={to}
       activeOptions={exact ? { exact: true } : undefined}
-      activeProps={{ className: "!bg-gradient-vivid !text-primary-foreground shadow-glow" }}
-      className={cn(
-        "flex flex-1 items-center justify-center gap-2 rounded-xl px-4 py-2.5 text-sm font-semibold text-muted-foreground transition-smooth hover:bg-secondary",
+      activeProps={{
+        className: "bg-gradient-vivid text-primary-foreground shadow-glow",
+      }} className={cn(
+        "flex flex-1 items-center justify-center gap-2 rounded-xl px-4 py-2.5 text-sm font-semibold text-foreground/70 transition-smooth hover:bg-secondary",
       )}
     >
       <Icon className="h-4 w-4" />
