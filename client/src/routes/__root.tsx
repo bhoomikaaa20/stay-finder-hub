@@ -78,7 +78,7 @@ function RootComponent() {
         <Outlet />
       </main>
       <Footer />
-      <Toaster richColors position="top-center" />
+      <Toaster richColors position="top-center" duration={2000} />
     </>
   );
 }

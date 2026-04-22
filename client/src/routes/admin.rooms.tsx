@@ -107,6 +107,10 @@ function AdminRooms() {
     });
 
     toast.success(editing ? "Room updated." : "Room added.");
+
+    setOpen(false);
+    setEditing(null);
+    setForm(empty);
     load();
   };
 
