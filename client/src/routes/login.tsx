@@ -51,7 +51,7 @@ function LoginPage() {
   };
   const fillDemo = () => {
     setEmail("admin@gmail.com");
-    setPassword("admin123");
+    setPassword("admin@123");
   };
 
   return (
@@ -98,6 +98,7 @@ function LoginPage() {
               {loading ? "Signing in..." : "Sign in"}
             </Button>
           </form>
+
 
           <button
             type="button"
